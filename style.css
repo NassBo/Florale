@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #FAFAFA;
+}
+
+
+
+header {
+	background-image: url(file:///C:/Users/boubz/OneDrive/Bureau/florale/fleur.webp) ;
+}
+
+header nav {
+	padding: 30px 10% 0 10%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	font-weight: 600;
+}
+
+header h1 {
+	margin: 0;
+}
+
+header nav .right {
+	display:flex;
+	align-items: center;
+}
+
+header nav img {
+	width: 50px;
+	height: 50px;
+}
+
+header nav .right p{
+	margin: 0 100px 0 0 ;
+
+}
+
+header nav .right p:hover {
+	color: green;
+	cursor: pointer;
+	
+}
+
+header section h1 {
+	padding: 30px 5% 0 5%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header section p {
+	padding: 30px 5% 0 5%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+
+.presentation {
+	padding: 30px 5%;
+	margin-top: 0%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.presentation .presentationproduit {
+	width: 100%;
+	flex-shrink: 3;
+}
+
+.presentation .presentationproduit h1 {
+	font-family: 'Antic Didone', serif;
+	margin: 0;
+	font-size: 160px;
+	width: 80%;
+}
+
+.presentation .presentationproduit p {
+	width: 35%;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.container {
+	margin-top: 50;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+}
+
+.card1{
+	width: 300px;
+	height: 500px;
+	left: 20px;
+	top: 20px;
+	margin: 25px;
+	background: #FFFFFF;
+	box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+}
+
+.card1 p{
+	padding: 5px;
+	text-align: center;
+}
+.card2 p{
+	padding: 5px;
+	text-align: center;
+}
+.card3 p{
+	padding: 5px;
+	text-align: center;
+}
+.card4 p{
+	padding: 5px;
+	text-align: center;
+}
+
+.card1 h2{
+	text-align: center;
+}
+.card2 h2{
+	text-align: center;
+}
+.card3 h2{
+	text-align: center;
+}
+.card4 h2{
+	text-align: center;
+}
+
+.cardButton1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #F67841;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	width: 300px;
+	height: 135px;
+}
+
+.cardButton2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #FFD56A;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	width: 300px;
+	height: 135px;
+}
+
+.cardButton3 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #FFE5CA;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	width: 300px;
+	height: 135px;
+}
+
+.cardButton4 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #83A4D2;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	width: 300px;
+	height: 135px;
+}
+
+
+
+.card2{
+	width: 300px;
+	height: 500px;
+	left: 20px;
+	top: 20px;
+	margin: 25px;
+	background: #FFFFFF;
+	box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+}
+
+.card3{
+	width: 300px;
+	height: 500px;
+	left: 20px;
+	top: 20px;
+	margin: 25px;
+	background: #FFFFFF;
+	box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+}
+
+.card4{
+	width: 300px;
+	height: 500px;
+	left: 20px;
+	top: 20px;
+	margin: 25px;
+	background: #FFFFFF;
+	box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+}
+
+.card1:hover{
+	transform: scale(1.10);
+	background-color: #F67841;
+	transition: all 0.50s ease;
+	box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.25);
+
+}
+
+.h1first {
+	margin-top: 50;
+	text-align: center;
+	text-decoration: underline green;
+}
+
+.card2:hover{
+	transform: scale(1.10);
+	background-color: #FFD56A;
+	transition: all 0.50s ease;
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.card3:hover{
+	transform: scale(1.10);
+	background-color: #FFE5CA;
+	transition: all 0.50s ease;
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.card4:hover{
+	transform: scale(1.10);
+	background-color: #83A4D2;
+	transition: all 0.50s ease;
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+
+}
+
+
+.bouton {
+	font-size: 20px;
+	width: 205px;
+	height: 44px;
+	left: 47px;
+	top: 428px;
+	border: none;
+	background: #FFFFFF;
+	border-radius: 10px;
+}
+
+.bouton:hover{
+	cursor: pointer;
+
+}
+
+
+.cardImage {
+	
+	background-size: cover;
+	height: 200px;
+	
+	margin-bottom: 15px;
+	clip-path:ellipse(35% 50%);
+}
+
+
+
+.card p {
+	padding: 10px;
+}
+
+.card h2 {
+
+}
+
+.image1{
+	background-image: url(file:///C:/Users/boubz/OneDrive/Bureau/florale/image1.webp);
+}
+
+.image2{
+	background-image: url(file:///C:/Users/boubz/OneDrive/Bureau/florale/image2.webp);
+}
+
+.image3{
+	background-image: url(file:///C:/Users/boubz/OneDrive/Bureau/florale/image3.webp);
+}
+
+.image4{
+	background-image: url(file:///C:/Users/boubz/OneDrive/Bureau/florale/image4.webp);
+}
+
+.cardFinal {
+	position: relative;
+	margin: 30px;
+	width: 1400px;
+	height: 640px;
+	left: 30px;
+	top: 50px;
+	box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25);
+	border-radius: 100px;
+	
+}
+.cardFinal img {
+	width: 1400px;
+	height: 640px;
+	object-fit: cover;
+
+}
+
+.cardFinal button{
+	position: absolute;
+	width: 125px;
+	height: 70px;
+	left: 1030px;
+	top: 472px;
+	font-size: 20px;
+	background: #FFFFFF;
+	border: 2px solid #000000;
+	border-radius: 20px;
+	cursor: pointer;
+	text-align: center;
+}
+
+.cardFinal button:hover{
+	color: white;
+	background-color: green;
+	border: none;
+}
+
+
+@media screen and (max-width: 640px) {
+	nav .right p {
+		display: none;
+	}
+
+	.presentation .product-presentation h1 {
+		font-size: 2em;
+	}
+
+	footer {
+		justify-content: flex-start;
+	}
+	footer .column {
+		width: 80%;
+	}
+}
